@@ -17,7 +17,7 @@ Run the program with the following arguments:
 ```
 java -cp target/classes org.threadmatrix.ByteEncoder <format> <input>
 ```
-- `<format>`: `binary`,`octal`, `hexadecimal`, or `base32`
+- `<format>`: `binary`,`octal`, `hexa`, or `base32`
 - `<input>`: The string to encode
 
 Example:
@@ -34,7 +34,7 @@ java -cp target/classes org.threadmatrix.ByteEncoder octal 1234567
 ```
 For hexadecimal encoding:
 ```
-java -cp target/classes org.threadmatrix.ByteEncoder hexadecimal 1A2B3C
+java -cp target/classes org.threadmatrix.ByteEncoder hexa 1A2B3C
 ```
 For base32 encoding:
 ```
